@@ -1,0 +1,132 @@
+.support {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.aircover,
+.cencellationOptions,
+.combatingDiscrimination,
+.helpCentre,
+.reportNeighbourhoodConcern,
+.support,
+.supportingPeopleWith {
+  position: relative;
+}
+.loopNode {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.hosting {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.communityForum,
+.coverForHosts,
+.hosting,
+.hostingResources,
+.hostingResponsibly,
+.localHome {
+  position: relative;
+}
+.helpCentreFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.localhost {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.careers,
+.giftCards,
+.investres,
+.localhost,
+.newFeatures,
+.newsroom {
+  position: relative;
+}
+.helpCentreFrame1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.comparisonOperator,
+.conditionChecker,
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.conditionChecker {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.comparisonOperator,
+.footer {
+  flex-wrap: wrap;
+}
+.comparisonOperator {
+  width: 1280px;
+  justify-content: flex-start;
+  max-width: 1280px;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--light-bg);
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-11xl);
+  min-height: 288px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .comparisonOperator {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .conditionChecker {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hosting,
+  .localhost,
+  .support {
+    font-size: var(--font-size-base);
+  }
+}
